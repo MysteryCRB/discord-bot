@@ -22,7 +22,6 @@ client.on('ready', () => {
   client.user.setPresence({status: "dnd"})
 });
 
-// yang dibawah ini khusus commands, males buat advanced command handler soalnya bot yang lalu error mulu anjing
 client.on("messageCreate", msg => {
     if (msg.content === "hey") {
     msg.reply("sup bro")
