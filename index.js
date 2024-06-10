@@ -34,7 +34,7 @@ client.on("messageCreate", msg => {
     } else if (msg.content === "Ppagi") {
     msg.reply("swlamst oagih vhanhn!")
     } else if (msg.content === "p") {
-    msg.reply("salam yang bener blog")
+    msg.reply("walawe")
     } else if (msg.content === "siang") {
     msg.reply("swlamst xyannh vhanhn")
     } else if (msg.content === "sore") {
